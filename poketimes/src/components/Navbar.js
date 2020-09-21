@@ -3,10 +3,10 @@
 
  const Navbar = (props) => {
 
-       setTimeout(()=>{
-              props.history.push('/about')
-          }, 2000);
-    console.log(props)
+      //  setTimeout(()=>{
+      //         props.history.push('/about')
+      //     }, 2000);
+    // console.log(props)
 
     return (
       <nav className="nav-wrapper red darken-3">
